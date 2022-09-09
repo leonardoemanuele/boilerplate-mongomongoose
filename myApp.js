@@ -1,7 +1,18 @@
-require('dotenv').config();
+require("dotenv").config();
+// Lesson 1: Install and set up Mongoose/MondoDB
+const mongoose = require("mongoose");
+mongoose.connect(MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
-
-let Person;
+// Lesson 2:  Create a Schema and a Model
+const personSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  age: Number,
+  favoriteFoods: [String],
+});
+const Person = mongoose.model("Person", personSchema);
 
 const createAndSavePerson = (done) => {
   done(null /*, data*/);
