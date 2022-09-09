@@ -7,7 +7,7 @@ This is the boilerplate for the MongoDB and Mongoose lessons. Instructions for c
 Follow [this tutorial](https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/) to set up a hosted database on MongoDB Atlas.
 
 - ## Create a Model
-First of all we need a Schema. Each schema maps to a MongoDB collection. It defines the shape of the documents within that collection. Schemas are    building block for Models. They can be nested to create complex models, but in this case we'll keep things simple. A model allows you to create instances of your objects, called documents.
+  First of all we need a Schema. Each schema maps to a MongoDB collection. It defines the shape of the documents within that collection. Schemas are         building block for Models. They can be nested to create complex models, but in this case we'll keep things simple. A model allows you to create instances   of your objects, called documents.
 
   Create a person schema called `personSchema` having this prototype:
  
