@@ -10,12 +10,6 @@ Follow [this tutorial](https://www.freecodecamp.org/news/get-started-with-mongod
   First of all we need a Schema. Each schema maps to a MongoDB collection. It defines the shape of the documents within that collection. Schemas are building block for Models. They can be nested to create complex models, but in this case we'll keep things simple. A model allows you to create instances of your objects, called documents.
 
   Create a person schema called `personSchema` having this prototype:
-  `
-  Person Prototype -
-
-  ***
-
-  name : string [required]
-  age : number
-  favoriteFoods : array of strings (\*)
-  `
+  `name : string required`
+  `age : number`
+  `favoriteFoods : array of strings`
