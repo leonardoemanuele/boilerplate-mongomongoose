@@ -16,4 +16,4 @@ Follow [this tutorial](https://www.freecodecamp.org/news/get-started-with-mongod
   `favoriteFoods : array of strings`
   
 - ## Create Many Recordds with `Model.create()`
-  Sometimes you need to create many instances of your models, e.g. when seeding a database with initial data. `Model.create()` takes an array of objects like `[{name: 'John', ...}, {...}, ...]` as the first argument, and saves them all in the db.
+  Sometimes you need to create many instances of your models, e.g. when seeding a database with initial data. `Model.create()` takes an array of objects like `[{name: 'John', ...}, {...}, ...]` as the first argument, and saves them all in the db. 
