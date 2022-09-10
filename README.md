@@ -27,7 +27,7 @@ Follow [this tutorial](https://www.freecodecamp.org/news/get-started-with-mongod
 - ## Use `model.findById()` to Search Your Database By `_id`
   When saving a document, MongoDB automatically adds the field `_id`, and set it to a unique alphanumeric key. Searching by `_id` is an extremely frequent operation, so Mongoose provides a dedicated method for it.
   
-  - ## Perform Classic Updates by Running Find, Edit, then Save
+- ## Perform Classic Updates by Running Find, Edit, then Save
     Mongoose has a dedicated updating method: `Model.update()`. It is bound to the low-level mongo driver. It can bulk-edit many documents matching certain criteria, but it doesn’t send back the updated document, only a `'status'` message. Furthermore, it makes model validations difficult, because it just directly calls the mongo driver.
     
 - ## Perform New Updates on a Document Using `model.findOneAndUpdate()`
